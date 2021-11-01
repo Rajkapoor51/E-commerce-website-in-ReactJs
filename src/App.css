@@ -1,0 +1,164 @@
+.App{
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.container h1 {
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.2rem;
+  font-weight: bolder;
+}
+.container span{
+  color: rgb(212, 138, 138);
+
+}
+.col-sm-6{
+  padding: 50px;
+  margin: 50px;
+  height: 70vh;
+  color: #eee8f7;
+  background-color: #667cdf;
+
+}
+.col-sm-6 text{
+  height: 10px;
+
+}
+.cart{
+  padding-left: 50px;
+}
+.me-auto h1 span{
+  color: black;
+
+}
+.col-sm-6 h1{
+  padding: 20px;
+}
+.form-control{
+  color: #000000;
+}
+
+.me-auto{
+  width: 60%;
+  margin-left: 50px;
+  font-size: x-large;
+  font: #ffffff;
+  justify-content: space-between;
+}
+.main{
+  color: rgb(18, 192, 56);
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  font-weight: bolder;
+
+}
+
+.latest{
+  padding: 50px 100px;
+}
+.product-intro{
+  text-align: center;
+}
+.product-intro h1{
+  color: rgb(18, 192, 56);
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.product-intro h1 span{
+  color: black;
+
+}
+.product-intro p{
+  color: gray;
+  margin: 15px 0px;
+}
+.card-container{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin: 3rem 0;
+
+  
+}
+.card-container .cards{
+  flex-basis: 25%;
+  padding: 0.8rem;
+  position: relative;
+  padding-left: 20px;
+  justify-content: space-between;
+  
+}
+.cards img{
+  width: 70%;
+  transition: 0.6s ease-in-out;
+}
+
+.cards button{
+  color:white;
+  background-color: black;
+  border: none;
+  outline: none;
+  margin-top: 15px;
+  padding: 4px 15px;
+}
+.cards:hover img,.cards:hover h1{
+  width: 80%;
+  color: rgb(8, 143, 37);
+}
+.cards:before{
+  content: ' UPTO 40% OFF';
+  width: 53%;
+  height: 25px;
+  line-height: 25px;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2eacd3;
+  padding: 0px 4px;
+  transform: rotate(-20deg);
+
+}
+.card-container h1{
+  font-size: 100%;
+}
+.Login-box{
+  width: 22rem;
+  height: auto;
+  border-radius: 2px;
+  box-shadow: 0 0 6px 0 rgba(0,115,230,0,3);
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
